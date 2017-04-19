@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D03FB84B1DC249C100B5924C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D03FB84A1DC249C100B5924C /* main.m */; };
+		D03FB84E1DC249C100B5924C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D03FB84D1DC249C100B5924C /* AppDelegate.m */; };
+		D03FB8541DC249C100B5924C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03FB8521DC249C100B5924C /* Main.storyboard */; };
+		D03FB8561DC249C100B5924C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03FB8551DC249C100B5924C /* Assets.xcassets */; };
+		D03FB8591DC249C100B5924C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03FB8571DC249C100B5924C /* LaunchScreen.storyboard */; };
+		D03FB8621DC249E800B5924C /* LWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03FB8611DC249E800B5924C /* LWTableViewController.m */; };
+		D03FB8651DC24A9700B5924C /* LWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03FB8641DC24A9700B5924C /* LWViewController.m */; };
+		D03FB8681DC24AFC00B5924C /* LWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03FB8671DC24AFC00B5924C /* LWTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D03FB8461DC249C100B5924C /* 3DTouch-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3DTouch-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03FB84A1DC249C100B5924C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D03FB84C1DC249C100B5924C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D03FB84D1DC249C100B5924C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D03FB8531DC249C100B5924C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D03FB8551DC249C100B5924C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D03FB8581DC249C100B5924C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D03FB85A1DC249C100B5924C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03FB8601DC249E800B5924C /* LWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTableViewController.h; sourceTree = "<group>"; };
+		D03FB8611DC249E800B5924C /* LWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTableViewController.m; sourceTree = "<group>"; };
+		D03FB8631DC24A9700B5924C /* LWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWViewController.h; sourceTree = "<group>"; };
+		D03FB8641DC24A9700B5924C /* LWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWViewController.m; sourceTree = "<group>"; };
+		D03FB8661DC24AFC00B5924C /* LWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTabBarController.h; sourceTree = "<group>"; };
+		D03FB8671DC24AFC00B5924C /* LWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D03FB8431DC249C100B5924C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D03FB83D1DC249C000B5924C = {
+			isa = PBXGroup;
+			children = (
+				D03FB8481DC249C100B5924C /* 3DTouch-OC */,
+				D03FB8471DC249C100B5924C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D03FB8471DC249C100B5924C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D03FB8461DC249C100B5924C /* 3DTouch-OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D03FB8481DC249C100B5924C /* 3DTouch-OC */ = {
+			isa = PBXGroup;
+			children = (
+				D03FB84C1DC249C100B5924C /* AppDelegate.h */,
+				D03FB84D1DC249C100B5924C /* AppDelegate.m */,
+				D03FB8661DC24AFC00B5924C /* LWTabBarController.h */,
+				D03FB8671DC24AFC00B5924C /* LWTabBarController.m */,
+				D03FB8631DC24A9700B5924C /* LWViewController.h */,
+				D03FB8641DC24A9700B5924C /* LWViewController.m */,
+				D03FB8601DC249E800B5924C /* LWTableViewController.h */,
+				D03FB8611DC249E800B5924C /* LWTableViewController.m */,
+				D03FB8521DC249C100B5924C /* Main.storyboard */,
+				D03FB8551DC249C100B5924C /* Assets.xcassets */,
+				D03FB8571DC249C100B5924C /* LaunchScreen.storyboard */,
+				D03FB85A1DC249C100B5924C /* Info.plist */,
+				D03FB8491DC249C100B5924C /* Supporting Files */,
+			);
+			path = "3DTouch-OC";
+			sourceTree = "<group>";
+		};
+		D03FB8491DC249C100B5924C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D03FB84A1DC249C100B5924C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D03FB8451DC249C100B5924C /* 3DTouch-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03FB85D1DC249C100B5924C /* Build configuration list for PBXNativeTarget "3DTouch-OC" */;
+			buildPhases = (
+				D03FB8421DC249C100B5924C /* Sources */,
+				D03FB8431DC249C100B5924C /* Frameworks */,
+				D03FB8441DC249C100B5924C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3DTouch-OC";
+			productName = "3DTouch-OC";
+			productReference = D03FB8461DC249C100B5924C /* 3DTouch-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D03FB83E1DC249C000B5924C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "张星星";
+				TargetAttributes = {
+					D03FB8451DC249C100B5924C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D03FB8411DC249C000B5924C /* Build configuration list for PBXProject "3DTouch-OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D03FB83D1DC249C000B5924C;
+			productRefGroup = D03FB8471DC249C100B5924C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D03FB8451DC249C100B5924C /* 3DTouch-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D03FB8441DC249C100B5924C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03FB8591DC249C100B5924C /* LaunchScreen.storyboard in Resources */,
+				D03FB8561DC249C100B5924C /* Assets.xcassets in Resources */,
+				D03FB8541DC249C100B5924C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D03FB8421DC249C100B5924C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03FB8621DC249E800B5924C /* LWTableViewController.m in Sources */,
+				D03FB84E1DC249C100B5924C /* AppDelegate.m in Sources */,
+				D03FB84B1DC249C100B5924C /* main.m in Sources */,
+				D03FB8681DC24AFC00B5924C /* LWTabBarController.m in Sources */,
+				D03FB8651DC24A9700B5924C /* LWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D03FB8521DC249C100B5924C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03FB8531DC249C100B5924C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D03FB8571DC249C100B5924C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03FB8581DC249C100B5924C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D03FB85B1DC249C100B5924C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D03FB85C1DC249C100B5924C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D03FB85E1DC249C100B5924C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "3DTouch-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liwei.-DTouch-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D03FB85F1DC249C100B5924C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "3DTouch-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liwei.-DTouch-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D03FB8411DC249C000B5924C /* Build configuration list for PBXProject "3DTouch-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03FB85B1DC249C100B5924C /* Debug */,
+				D03FB85C1DC249C100B5924C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D03FB85D1DC249C100B5924C /* Build configuration list for PBXNativeTarget "3DTouch-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03FB85E1DC249C100B5924C /* Debug */,
+				D03FB85F1DC249C100B5924C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D03FB83E1DC249C000B5924C /* Project object */;
+}
