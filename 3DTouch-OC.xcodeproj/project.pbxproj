@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA11F45320183DD4008A3A61 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA11F45220183DD4008A3A61 /* NotificationCenter.framework */; };
+		CA11F45720183DD4008A3A61 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA11F45620183DD4008A3A61 /* TodayViewController.m */; };
+		CA11F45A20183DD4008A3A61 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA11F45820183DD4008A3A61 /* MainInterface.storyboard */; };
+		CA11F45E20183DD4008A3A61 /* widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CA11F45020183DD4008A3A61 /* widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CACE7F7420184B0D008F78EC /* PhoneInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CACE7F7320184B0D008F78EC /* PhoneInfoManager.m */; };
+		CACE7F7720184B37008F78EC /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACE7F7520184B36008F78EC /* BaseViewController.m */; };
 		D03FB84B1DC249C100B5924C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D03FB84A1DC249C100B5924C /* main.m */; };
 		D03FB84E1DC249C100B5924C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D03FB84D1DC249C100B5924C /* AppDelegate.m */; };
 		D03FB8541DC249C100B5924C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03FB8521DC249C100B5924C /* Main.storyboard */; };
@@ -17,7 +23,41 @@
 		D03FB8681DC24AFC00B5924C /* LWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03FB8671DC24AFC00B5924C /* LWTabBarController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CA11F45C20183DD4008A3A61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03FB83E1DC249C000B5924C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA11F44F20183DD4008A3A61;
+			remoteInfo = widget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA11F46220183DD4008A3A61 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CA11F45E20183DD4008A3A61 /* widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		CA11F45020183DD4008A3A61 /* widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA11F45220183DD4008A3A61 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		CA11F45520183DD4008A3A61 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		CA11F45620183DD4008A3A61 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		CA11F45920183DD4008A3A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		CA11F45B20183DD4008A3A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CACE7F7220184B0D008F78EC /* PhoneInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneInfoManager.h; sourceTree = "<group>"; };
+		CACE7F7320184B0D008F78EC /* PhoneInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneInfoManager.m; sourceTree = "<group>"; };
+		CACE7F7520184B36008F78EC /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CACE7F7620184B36008F78EC /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		D03FB8461DC249C100B5924C /* 3DTouch-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3DTouch-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03FB84A1DC249C100B5924C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D03FB84C1DC249C100B5924C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,6 +75,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CA11F44D20183DD4008A3A61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA11F45320183DD4008A3A61 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D03FB8431DC249C100B5924C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,10 +93,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA11F45120183DD4008A3A61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA11F45220183DD4008A3A61 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA11F45420183DD4008A3A61 /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				CA11F45520183DD4008A3A61 /* TodayViewController.h */,
+				CA11F45620183DD4008A3A61 /* TodayViewController.m */,
+				CA11F45820183DD4008A3A61 /* MainInterface.storyboard */,
+				CA11F45B20183DD4008A3A61 /* Info.plist */,
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
 		D03FB83D1DC249C000B5924C = {
 			isa = PBXGroup;
 			children = (
 				D03FB8481DC249C100B5924C /* 3DTouch-OC */,
+				CA11F45420183DD4008A3A61 /* widget */,
+				CA11F45120183DD4008A3A61 /* Frameworks */,
 				D03FB8471DC249C100B5924C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				D03FB8461DC249C100B5924C /* 3DTouch-OC.app */,
+				CA11F45020183DD4008A3A61 /* widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +134,10 @@
 		D03FB8481DC249C100B5924C /* 3DTouch-OC */ = {
 			isa = PBXGroup;
 			children = (
+				CACE7F7220184B0D008F78EC /* PhoneInfoManager.h */,
+				CACE7F7320184B0D008F78EC /* PhoneInfoManager.m */,
+				CACE7F7620184B36008F78EC /* BaseViewController.h */,
+				CACE7F7520184B36008F78EC /* BaseViewController.m */,
 				D03FB84C1DC249C100B5924C /* AppDelegate.h */,
 				D03FB84D1DC249C100B5924C /* AppDelegate.m */,
 				D03FB8661DC24AFC00B5924C /* LWTabBarController.h */,
@@ -92,6 +166,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CA11F44F20183DD4008A3A61 /* widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA11F45F20183DD4008A3A61 /* Build configuration list for PBXNativeTarget "widget" */;
+			buildPhases = (
+				CA11F44C20183DD4008A3A61 /* Sources */,
+				CA11F44D20183DD4008A3A61 /* Frameworks */,
+				CA11F44E20183DD4008A3A61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widget;
+			productName = widget;
+			productReference = CA11F45020183DD4008A3A61 /* widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		D03FB8451DC249C100B5924C /* 3DTouch-OC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D03FB85D1DC249C100B5924C /* Build configuration list for PBXNativeTarget "3DTouch-OC" */;
@@ -99,10 +190,12 @@
 				D03FB8421DC249C100B5924C /* Sources */,
 				D03FB8431DC249C100B5924C /* Frameworks */,
 				D03FB8441DC249C100B5924C /* Resources */,
+				CA11F46220183DD4008A3A61 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CA11F45D20183DD4008A3A61 /* PBXTargetDependency */,
 			);
 			name = "3DTouch-OC";
 			productName = "3DTouch-OC";
@@ -118,8 +211,14 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "张星星";
 				TargetAttributes = {
+					CA11F44F20183DD4008A3A61 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = 6UX2KD6XQF;
+						ProvisioningStyle = Automatic;
+					};
 					D03FB8451DC249C100B5924C = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6UX2KD6XQF;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,11 +237,20 @@
 			projectRoot = "";
 			targets = (
 				D03FB8451DC249C100B5924C /* 3DTouch-OC */,
+				CA11F44F20183DD4008A3A61 /* widget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CA11F44E20183DD4008A3A61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA11F45A20183DD4008A3A61 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D03FB8441DC249C100B5924C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -156,6 +264,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CA11F44C20183DD4008A3A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA11F45720183DD4008A3A61 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D03FB8421DC249C100B5924C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -164,13 +280,31 @@
 				D03FB84E1DC249C100B5924C /* AppDelegate.m in Sources */,
 				D03FB84B1DC249C100B5924C /* main.m in Sources */,
 				D03FB8681DC24AFC00B5924C /* LWTabBarController.m in Sources */,
+				CACE7F7420184B0D008F78EC /* PhoneInfoManager.m in Sources */,
+				CACE7F7720184B37008F78EC /* BaseViewController.m in Sources */,
 				D03FB8651DC24A9700B5924C /* LWViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		CA11F45D20183DD4008A3A61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA11F44F20183DD4008A3A61 /* widget */;
+			targetProxy = CA11F45C20183DD4008A3A61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		CA11F45820183DD4008A3A61 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA11F45920183DD4008A3A61 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		D03FB8521DC249C100B5924C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -190,6 +324,60 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CA11F46020183DD4008A3A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UX2KD6XQF;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naju.app.main.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA11F46120183DD4008A3A61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UX2KD6XQF;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naju.app.main.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D03FB85B1DC249C100B5924C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -284,9 +472,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6UX2KD6XQF;
 				INFOPLIST_FILE = "3DTouch-OC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.liwei.-DTouch-OC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naju.app.main;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -295,9 +485,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6UX2KD6XQF;
 				INFOPLIST_FILE = "3DTouch-OC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.liwei.-DTouch-OC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naju.app.main;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -305,6 +497,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CA11F45F20183DD4008A3A61 /* Build configuration list for PBXNativeTarget "widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA11F46020183DD4008A3A61 /* Debug */,
+				CA11F46120183DD4008A3A61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D03FB8411DC249C000B5924C /* Build configuration list for PBXProject "3DTouch-OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -321,6 +522,7 @@
 				D03FB85F1DC249C100B5924C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
